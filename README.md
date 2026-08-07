@@ -1,14 +1,11 @@
-# NYC Healthcare ML Project
-Predicting Inpatient Mortality Risk using 1M+ rows from the NY State SPARCS dataset.
+# Boston Housing Linear Regression Analysis
 
-* **Model:** LightGBM (Multi-class)
-* **Accuracy:** 82% overall
-* **Features:** Age, Gender, Admission Type, Diagnosis/Procedure Codes.
-* **F1-Scores:** Minor (0.93), Moderate (0.61), Major (0.58), Extreme (0.74).
+This project fulfills Assignment 1 for Intro to Machine Learning at LaGuardia Community College. 
 
-## 📋 Presentation Outline
-* **Slides 1-3:** Project goals, 1M+ rows, and LightGBM model.
-* **Slides 4-5:** 82% overall accuracy and final takeaways.
+## Project Overview
+- **Dataset:** Boston Housing data.
+- **Objective:** Compare two versions of a Linear Regression model.
+- **Model 1:** Built using all 13 features to capture complex market dynamics.
+- **Model 2:** Built using a subset of features (Room Count and Lower-Class Status) for a clean, highly interpretable alternative.
 
-## 🛠️ Tech Stack
-* Python, Pandas, Scikit-Learn, LightGBM.
+*Each code cell inside the notebook is annotated with explanations detailing the data pipeline and performance comparisons.*
