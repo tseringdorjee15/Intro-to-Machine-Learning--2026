@@ -23,8 +23,8 @@ An end-to-end data engineering and predictive analytics pipeline analyzing **2.2
 * `/Python_Modeling_Scripts` - Data engineering, stratified downsampling, leak avoidance, and 75th percentile target creation.
 * `/Tableau_Workbook` - Packaged `.twbx` workbook containing the 3-Stage analytical presentation layer.
 
-=======================================================================================================================================================================================================================================
-# 1. Machine Learning Pipeline for Hospital Length-of-Stay Classification
+========================================================================================================================================================
+# 2. Machine Learning Pipeline for Hospital Length-of-Stay Classification
 ### Raw NYC SPARCS "Streaming Ingestion" to "Multi-Architecture Model Selection"
 
 **By:** Tsering Dorjee  
@@ -83,7 +83,7 @@ The **Random Forest Classifier** was selected for final deployment. It achieved 
 
 ==================================================================================================================================
 
-# 2. Titanic Survival - Classification Analysis
+# 3. Titanic Survival - Classification Analysis
 
 This project fulfills Assignment 2 for Intro to Machine Learning at LaGuardia Community College.
 
@@ -97,7 +97,7 @@ This project fulfills Assignment 2 for Intro to Machine Learning at LaGuardia Co
 
 ====================================================================================================================================
 
-# 3. Boston Housing - Linear Regression Analysis
+# 4. Boston Housing - Linear Regression Analysis
 
 This project fulfills Assignment 1 for Intro to Machine Learning at LaGuardia Community College. 
 
