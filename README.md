@@ -1,3 +1,29 @@
+# 🏥 NYS SPARCS Patient Length of Stay Machine Learning Pipeline
+
+An end-to-end data engineering and predictive analytics pipeline analyzing **2.2 Million records** from the 2024 NYS SPARCS dataset to classify prolonged hospitalizations.
+
+[👉 **[🔗 Click Here to View the Live Interactive Tableau Presentation Story]([PASTE_YOUR_LIVE_TABLEAU_PUBLIC_URL_HERE]: (https://public.tableau.com/app/profile/tsering.dorjee6855/viz/TableauCapstoneProject-TseringDorjee/Dashboard))**](https://public.tableau.com/app/profile/tsering.dorjee6855/viz/TableauvisualizationNYSSPARCS2024/Story1)
+
+---
+
+## 📈 Executive Summary & Key Results:
+
+* **The Geographic Factor:** Regional **ZIP Code prefixes hold 9.62% predictive weight**, proving that local geographic bottlenecks impact hospital capacity significantly more than direct patient identity demographics (Age, Gender, Race), which hold near-zero impact.
+* **The Pipeline Winner:** The **Random Forest Classifier** achieved the highest overall predictive accuracy at **78.95%**, optimizing the critical operational balance between false alarms (False Positives) and missed detections.
+* **Top Operational Driver:** Clinical coding attributes heavily dictate stay durations. **CCSR Procedure Codes (13.91%)** and **CCSR Diagnosis Codes (12.23%)** hold the highest overall feature weights.
+
+---
+
+## 🖥️ Project Presentation Preview
+![Project Presentation Preview](preview.png)
+
+---
+
+## 🛠️ Repository File Architecture
+* `/Python_Modeling_Scripts` - Data engineering, stratified downsampling, leak avoidance, and 75th percentile target creation.
+* `/Tableau_Workbook` - Packaged `.twbx` workbook containing the 3-Stage analytical presentation layer.
+
+=======================================================================================================================================================================================================================================
 # 1. Machine Learning Pipeline for Hospital Length-of-Stay Classification
 ### Raw NYC SPARCS "Streaming Ingestion" to "Multi-Architecture Model Selection"
 
