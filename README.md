@@ -15,7 +15,7 @@ An end-to-end data engineering and predictive analytics pipeline analyzing **2.2
 ---
 
 ## 🖥️ Project Presentation Preview
-![Project Presentation Preview](preview.png)
+[![Project Presentation Preview](preview.png)](https://public.tableau.com/app/profile/tsering.dorjee6855/viz/TableauvisualizationNYSSPARCS2024/Story1)
 
 ---
 
