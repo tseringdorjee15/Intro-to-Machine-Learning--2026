@@ -1,4 +1,4 @@
-# 1. 🏥 NYS SPARCS Patient Length of Stay Machine Learning Pipeline
+# 1. 🏥 Interactive Tableau Visualization - NYS SPARCS 2024 Patient Length of Stay Machine Learning Pipeline
 
 An end-to-end data engineering and predictive analytics pipeline analyzing **2.2 Million records** from the 2024 NYS SPARCS dataset to classify prolonged hospitalizations.
 
